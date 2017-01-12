@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <LineChart fx:id="profileLineChart" createSymbols="false" layoutX="20" layoutY="20" legendVisible="false" axisSortingPolicy="none" prefHeight="500.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <xAxis>
+          <NumberAxis prefHeight="50.0" lowerBound="-150.0" side="BOTTOM" upperBound="150.0" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis lowerBound="-150.0" prefHeight="654.0" prefWidth="29.0" side="LEFT" upperBound="150.0" />
+        </yAxis>
+      </LineChart>
+       <Button fx:id="buildButton" layoutX="55.0" layoutY="24.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="Build" />
+   </children>
+</AnchorPane>
